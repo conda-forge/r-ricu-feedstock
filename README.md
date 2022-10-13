@@ -155,4 +155,5 @@ Feedstock Maintainers
 
 * [@conda-forge/r](https://github.com/conda-forge/r/)
 * [@mlondschien](https://github.com/mlondschien/)
+* [@nbenn](https://github.com/nbenn/)
 
