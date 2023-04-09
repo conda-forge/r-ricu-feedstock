@@ -1,5 +1,5 @@
 {% set name = "r-ricu" %}
-{% set version = "0.5.4" %}
+{% set version = "0.5.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ricu_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ricu/ricu_{{ version }}.tar.gz
-  sha256: b59e5d11e01a903271b691233abe8e9de0055a85e30040ec0aec8ff8bcfb4d18
+  sha256: a6a9b37fa3ba803b99f03954406e1dc308cb45c73c2e69f51534b2879f751f13
 
 build:
   merge_build_host: true  # [win]
